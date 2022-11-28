@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+.cuerpo {
+    background: hsl(30, 38%, 92%);
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.title {
+    color: hsl(212, 21%, 14%);
+}
+
+.info {
+    min-width: 50%;
+    background: white;
+    min-height: 30px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.img {
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.precio {
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.color {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px
+}
+
+.color:hover {
+    background-color: hsl(158, 95%, 16%);
+    cursor: pointer;
+}
+
+.color a {
+    text-decoration: none;
+    color: white
+}
+
+.color a:hover {
+    color: white;
+    cursor: auto;
+}
+
+@media (max-width: 770px) {
+    .img{
+        width: 100%;
+        height: 350px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .info {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
